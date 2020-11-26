@@ -20,6 +20,7 @@ morgan.format('messageLog', ':localDate | :method from :url')
 // 使用自定義的format
 app.use(morgan('messageLog'))
 
+// routes setting
 app.get('/', (req, res) => {
   const message = '列出全部 Todo'
   res.render('index', { message })
@@ -40,6 +41,7 @@ app.post('/', (req, res) => {
   res.render('detail', { message })
 })
 
+// start and listen on the Express server
 app.listen(port, () => {
   console.log(`App running on port ${port}`)
 })
