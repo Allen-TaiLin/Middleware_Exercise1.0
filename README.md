@@ -1,7 +1,7 @@
 # Middleware 實作練習 - Middleware Exercise 1.0
 
 使用 Node/Express 開發，我們會常常撰寫一些 middleware 小工具來幫助我們 debug，在路由裡加入一支 middleware，目標是伺服器收到任何來自瀏覽器的 request 時，都會自動把資訊紀錄到 server log 裡。
-![](/2_3A13Middleware_Exercise_Part1.png)
+![](/2_3A13Middleware_Exercise_Part1.PNG)
 
 ## Features - 產品功能
 
